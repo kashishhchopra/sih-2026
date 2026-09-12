@@ -44,6 +44,12 @@ class IncidentOut(BaseModel):
     assigned_unit_id: int | None
     station_id: int | None
     silent: bool
+    # Real sentiment/distress analysis of `description`, when it was
+    # analyzed (SOS messages and escalated safety reports) -- see
+    # services/sentiment.py. None for incidents opened with no free text.
+    sentiment_label: str | None = None
+    sentiment_score: float | None = None
+    distress_detected: bool = False
     escalation_stage: str
     escalation_deadline: datetime | None
     detected_at: datetime

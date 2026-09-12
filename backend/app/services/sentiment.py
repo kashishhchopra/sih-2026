@@ -137,13 +137,18 @@ def analyze(text: str) -> dict:
     distress_detected = bool(fear_hits) or urgency == "high"
 
     method = "vader+lexicon"
-    llm_label = _llm_emotion_label(text)
-    if llm_label:
-        # The LLM only refines the label (richer fear/anger distinction);
-        # it never overrides the lexicon-driven urgency/distress signal,
-        # which stays grounded in real matched phrases from the text itself.
-        label = llm_label
-        method = "vader+lexicon+llm"
+    # The LLM only fills in when the lexicon found no concrete fear/anger
+    # phrases to go on -- when it did, that grounded evidence outranks a
+    # generic model guess (the earlier "someone has been following me"
+    # example is exactly this case: the lexicon's "fear" is more trustworthy
+    # than an LLM defaulting to plain "negative"). Either way, it never
+    # touches urgency/distress_detected, which stay grounded in the matched
+    # phrases themselves.
+    if not fear_hits and not anger_hits:
+        llm_label = _llm_emotion_label(text)
+        if llm_label:
+            label = llm_label
+            method = "vader+lexicon+llm"
 
     return {
         "label": label, "score": round(compound, 3), "urgency": urgency,

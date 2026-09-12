@@ -129,6 +129,31 @@
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
   },
+  "fair_price": {
+    "card_title": "Fair Price",
+    "check_button": "Check fare",
+    "check_failed": "Couldn't check this fare right now.",
+    "checking": "Checking…",
+    "current_location": "Current location",
+    "destination_not_found": "Couldn't find that destination -- try a more specific place name.",
+    "destination_placeholder": "Destination (place name)",
+    "estimated_range": "Estimated: ₹{{min}}–₹{{max}}",
+    "intro": "Check whether a local ride's quoted fare is reasonable, based on real route distance and a transparent rate card.",
+    "none_yet": "No fare checks yet.",
+    "quoted": "Quoted: ₹{{amount}}",
+    "quoted_fare_placeholder": "Quoted fare (₹)",
+    "report_button": "Report this fare",
+    "reported_notice": "Reported -- thank you, this helps flag unreasonable pricing.",
+    "reporting": "Reporting…",
+    "transport_auto_rickshaw": "Auto-rickshaw",
+    "transport_bike_taxi": "Bike taxi",
+    "transport_cab": "Cab",
+    "transport_taxi": "Taxi",
+    "verdict_fair": "Fair",
+    "verdict_overpriced": "Overpriced",
+    "verdict_slightly_high": "Slightly high",
+    "verdict_suspicious": "Suspicious"
+  },
   "festivals": {
     "card_title": "Festival & Local Events",
     "failed": "Couldn't load the festival calendar right now.",
@@ -466,5 +491,26 @@
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",
     "you": "You"
+  },
+  "womens_safety": {
+    "card_title": "Women & Solo Traveller Safety",
+    "escalated_notice": "🚨 This reads as urgent -- a real incident has been opened and sent to police, just like an SOS.",
+    "helpline_label": "Women's Helpline (24x7)",
+    "history_title": "Your recent reports",
+    "intro": "Log how you're feeling about a situation -- we analyze it in real time and alert responders automatically if it reads as urgent.",
+    "saved_notice": "Report saved. It's visible to you and, if needed, to the admin dashboard.",
+    "sentiment_anger": "Anger",
+    "sentiment_fear": "Fear / distress",
+    "sentiment_negative": "Negative",
+    "sentiment_neutral": "Neutral",
+    "sentiment_positive": "Positive",
+    "submit_button": "Submit safety report",
+    "submit_failed": "Couldn't submit your report right now.",
+    "submitting": "Analyzing…",
+    "textarea_placeholder": "Describe what's happening, e.g. \"I am alone and someone has been following me\"",
+    "urgency_high": "High",
+    "urgency_label": "{{level}} urgency",
+    "urgency_low": "Low",
+    "urgency_medium": "Medium"
   }
 }

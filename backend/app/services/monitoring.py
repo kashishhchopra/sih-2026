@@ -294,6 +294,17 @@ def trigger_sos(db: Session, tourist: Tourist, lat: float, lng: float, message: 
     )
     inc = _open_incident(db, tourist, "sos", "critical", description, lat, lng)
     inc.silent = silent
+    # Real sentiment/distress analysis of the tourist's own SOS message
+    # (services/sentiment.py) -- shown to the responder alongside the raw
+    # text on the incident, never in place of it, and never changes the
+    # SOS's severity (already "critical", the maximum -- see the module
+    # docstring's honesty rule about not re-deriving what's already certain).
+    if message:
+        from app.services.sentiment import analyze
+        result = analyze(message)
+        inc.sentiment_label = result["label"]
+        inc.sentiment_score = result["score"]
+        inc.distress_detected = result["distress_detected"]
     # The escalation clock starts the moment an SOS incident is opened -- see
     # app/services/escalation.py:tick_escalations().
     inc.escalation_deadline = utc_now() + timedelta(
@@ -363,3 +374,26 @@ def trigger_sos(db: Session, tourist: Tourist, lat: float, lng: float, message: 
         "station_id": station.id if station else None,
         "station_name": station.name if station else None,
     }
+
+
+def escalate_safety_report(db: Session, tourist: Tourist, report) -> Incident | None:
+    """Women & Solo Traveller Safety: when a SafetyReport's real sentiment
+    analysis (services/sentiment.py) found high urgency/distress, open a
+    real Incident + Alert so it reaches the same police dashboard an SOS
+    does -- a lighter-weight step than the one-tap SOS (no auto-dispatch,
+    no live-location-sharing start), not a replacement for it. Returns None
+    when the report doesn't cross that bar; the report itself is still
+    saved either way (see app/api/safety_reports.py)."""
+    if not (report.distress_detected and report.urgency == "high"):
+        return None
+
+    description = f"Safety report from {tourist.full_name} (sentiment: {report.sentiment_label}): {report.text}"
+    inc = _open_incident(db, tourist, "safety_report", "high", description,
+                         report.lat or tourist.last_lat, report.lng or tourist.last_lng)
+    inc.sentiment_label = report.sentiment_label
+    inc.sentiment_score = report.sentiment_score
+    inc.distress_detected = True
+    _create_alert(db, tourist.id, "safety_report", "high",
+                  f"⚠️ Distress signal from {tourist.full_name}'s safety report",
+                  inc.lat, inc.lng)
+    return inc

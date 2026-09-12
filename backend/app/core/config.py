@@ -74,6 +74,24 @@ class Settings(BaseSettings):
     NOTIFICATION_CHANNEL: str = "console"
     PASSWORD_RESET_TOKEN_EXPIRE_MINUTES: int = 30
 
+    # ---- Fair Price: local transport fare rate card (services/fare.py) ----
+    # Base fare (INR) + per-km + per-minute rate for each transport type.
+    # Defaults are broadly representative starting rates, NOT any specific
+    # city's official tariff -- override with the real RTO/state-published
+    # tariff for your deployment's city so estimates are locally accurate.
+    FARE_AUTO_BASE: float = 30.0
+    FARE_AUTO_PER_KM: float = 15.0
+    FARE_AUTO_PER_MIN: float = 1.0
+    FARE_TAXI_BASE: float = 50.0
+    FARE_TAXI_PER_KM: float = 20.0
+    FARE_TAXI_PER_MIN: float = 1.5
+    FARE_CAB_BASE: float = 60.0
+    FARE_CAB_PER_KM: float = 18.0
+    FARE_CAB_PER_MIN: float = 1.5
+    FARE_BIKE_BASE: float = 20.0
+    FARE_BIKE_PER_KM: float = 8.0
+    FARE_BIKE_PER_MIN: float = 0.5
+
     # ---- public holidays (Calendarific -- free tier, key required) ----
     # Used by Crowd & Queue Forecast and Festival & Local Event Intelligence
     # for a real holiday-travel-window signal instead of a hand-maintained
