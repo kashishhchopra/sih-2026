@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "title": "Country-specific guidance for foreign tourists in India",
+    "note": "Generic, verifiable guidance (Indian immigration/registration rules apply the same way regardless of nationality) plus each country's own helpline language, per the Ministry of Tourism's 1363 tourist helpline. Not legal advice.",
+    "verified_on": "2026-09-01"
+  },
+  "_default": {
+    "helpline_language": "English",
+    "visa_overstay_note": "Overstaying a visa in India is a legal violation handled by the FRRO/FRO (Foreigners Regional Registration Office); penalties and exit procedures depend on how long the overstay was and whether it was voluntary. Contact your nearest FRRO before your visa expires, not after.",
+    "common_scams": [
+      "Unofficial 'travel agents' near stations/airports claiming your hotel is closed or full",
+      "Gem/carpet 'export scheme' offers promising huge resale profits",
+      "Overcharging on unmetered taxis/autos -- always confirm the fare or insist on the meter/app"
+    ],
+    "cultural_notes": [
+      "Dress modestly at religious sites; footwear is usually removed before entering",
+      "Public displays of affection are less common and can draw unwanted attention",
+      "Tipping (10%) is customary but not obligatory in restaurants"
+    ],
+    "police_reporting_steps": [
+      "Call 112 (India's national emergency number) or 100 for police",
+      "File an FIR (First Information Report) at the nearest police station for theft/loss -- required for insurance claims and replacement travel documents",
+      "For a lost passport, also contact your embassy/consulate immediately"
+    ]
+  },
+  "countries": {
+    "JP": {"helpline_language": "Japanese"},
+    "KR": {"helpline_language": "Korean"},
+    "CN": {"helpline_language": "Chinese"},
+    "FR": {"helpline_language": "French"},
+    "DE": {"helpline_language": "German"},
+    "ES": {"helpline_language": "Spanish"},
+    "RU": {"helpline_language": "Russian"},
+    "SA": {"helpline_language": "Arabic"},
+    "AE": {"helpline_language": "Arabic"},
+    "PT": {"helpline_language": "Portuguese"},
+    "IT": {"helpline_language": "Italian"},
+    "US": {"helpline_language": "English"},
+    "GB": {"helpline_language": "English"},
+    "AU": {"helpline_language": "English"},
+    "CA": {"helpline_language": "English"},
+    "SG": {"helpline_language": "English"}
+  }
+}

@@ -1,0 +1,44 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+backend/.env
+
+# Docker Compose deployment secrets (real SECRET_KEY / DB password once filled in)
+.env
+SECRET_KEY
+
+# ML artifacts (regenerate with train_all) — keep dir, ignore binaries.
+# Versioned snapshot copies (model_v1.joblib, hotzones_v2.json, ...) are also
+# ignored: they're per-training-run history the registry tracks in
+# registry.json, not something to accumulate in git across every retrain.
+backend/ml_models/*.joblib
+backend/ml_models/*_v[0-9]*.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Dev-only cached secret key (never commit)
+.dev_secret
+backend/.dev_secret
+
+# Test/coverage artifacts
+backend/.coverage
+backend/coverage.xml
+frontend/coverage/
+
+# Backup files created during this session's schema migrations
+*.db.bak
+
+# External Hash-Chain Anchoring's local ledger stand-in (services/anchoring.py)
+backend/anchor_ledger.jsonl

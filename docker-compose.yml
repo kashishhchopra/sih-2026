@@ -1,0 +1,51 @@
+# One-command deployment: PostgreSQL + FastAPI backend + React/nginx frontend.
+#   1. cp .env.example .env   &&  set a strong SECRET_KEY
+#   2. docker compose up --build
+#   3. open http://localhost:8080
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-tourist}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-tourist_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-tourist_safety}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-tourist}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+      SECRET_KEY: ${SECRET_KEY:?set a strong SECRET_KEY in .env}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-tourist}:${POSTGRES_PASSWORD:-tourist_pass}@db:5432/${POSTGRES_DB:-tourist_safety}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-*}
+      SEED_ON_START: ${SEED_ON_START:-true}
+      # This compose file is the one-command demo/eval deployment described in
+      # the README, so seeding is force-enabled and defaults to the documented
+      # demo credentials -- override all four in .env for any real deployment.
+      SEED_FORCE: ${SEED_FORCE:-true}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:-admin123}
+      SEED_TOURIST_PASSWORD: ${SEED_TOURIST_PASSWORD:-tourist123}
+      SEED_RESPONDER_PASSWORD: ${SEED_RESPONDER_PASSWORD:-responder123}
+      WEB_CONCURRENCY: 1
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "8000"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

@@ -1,0 +1,770 @@
+{
+  "_meta": {
+    "source": "OpenStreetMap via Overpass API (overpass-api.de)",
+    "license": "ODbL -- https://www.openstreetmap.org/copyright",
+    "center": [
+      26.1445,
+      91.7362
+    ],
+    "radius_km": 15.0,
+    "count": 84
+  },
+  "units": [
+    {
+      "osm_id": 1578252835,
+      "name": "Mahendra Mohan Choudhury Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1854322,
+      "lng": 91.7404472,
+      "phone": "102",
+      "station": "Mahendra Mohan Choudhury Hospital"
+    },
+    {
+      "osm_id": 1580625967,
+      "name": "Latasil Police Station",
+      "unit_type": "police",
+      "lat": 26.1899295,
+      "lng": 91.7519454,
+      "phone": "100",
+      "station": "Latasil Police Station"
+    },
+    {
+      "osm_id": 2319238560,
+      "name": "Bashistha Police Station",
+      "unit_type": "police",
+      "lat": 26.1126488,
+      "lng": 91.7948727,
+      "phone": "100",
+      "station": "Bashistha Police Station"
+    },
+    {
+      "osm_id": 4672136360,
+      "name": "Peerless Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1090489,
+      "lng": 91.7190636,
+      "phone": "102",
+      "station": "Peerless Hospital"
+    },
+    {
+      "osm_id": 4689339043,
+      "name": "GU Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1548233,
+      "lng": 91.6660347,
+      "phone": "102",
+      "station": "GU Hospital"
+    },
+    {
+      "osm_id": 4905334117,
+      "name": "Khanapara Police Station",
+      "unit_type": "police",
+      "lat": 26.1166579,
+      "lng": 91.8314579,
+      "phone": "100",
+      "station": "Khanapara Police Station"
+    },
+    {
+      "osm_id": 4920050258,
+      "name": "hatigaon police station",
+      "unit_type": "police",
+      "lat": 26.1266082,
+      "lng": 91.7868419,
+      "phone": "100",
+      "station": "hatigaon police station"
+    },
+    {
+      "osm_id": 4920054783,
+      "name": "Hm Hospital and Research Centre Pvt.Ltd",
+      "unit_type": "ambulance",
+      "lat": 26.1310276,
+      "lng": 91.7858925,
+      "phone": "102",
+      "station": "Hm Hospital and Research Centre Pvt.Ltd"
+    },
+    {
+      "osm_id": 6093127315,
+      "name": "Unnamed hospital facility",
+      "unit_type": "ambulance",
+      "lat": 26.2075432,
+      "lng": 91.6776942,
+      "phone": "102",
+      "station": "Unnamed hospital facility"
+    },
+    {
+      "osm_id": 6132273487,
+      "name": "4th APBn",
+      "unit_type": "police",
+      "lat": 26.1428801,
+      "lng": 91.7548577,
+      "phone": "100",
+      "station": "4th APBn"
+    },
+    {
+      "osm_id": 6156178612,
+      "name": "Bhagaduttapur Police station",
+      "unit_type": "police",
+      "lat": 26.1338779,
+      "lng": 91.7666261,
+      "phone": "100",
+      "station": "Bhagaduttapur Police station"
+    },
+    {
+      "osm_id": 6168636020,
+      "name": "Gauhati Medical College and Hospital (GMCH)",
+      "unit_type": "ambulance",
+      "lat": 26.1595109,
+      "lng": 91.7686637,
+      "phone": "102",
+      "station": "Gauhati Medical College and Hospital (GMCH)"
+    },
+    {
+      "osm_id": 6197603548,
+      "name": "GMCH Dental College",
+      "unit_type": "ambulance",
+      "lat": 26.1602914,
+      "lng": 91.7701374,
+      "phone": "102",
+      "station": "GMCH Dental College"
+    },
+    {
+      "osm_id": 6197607043,
+      "name": "GMCH Postmortem Ward",
+      "unit_type": "ambulance",
+      "lat": 26.1600421,
+      "lng": 91.7711596,
+      "phone": "102",
+      "station": "GMCH Postmortem Ward"
+    },
+    {
+      "osm_id": 6205680429,
+      "name": "Sanjevani Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.160924,
+      "lng": 91.7094281,
+      "phone": "102",
+      "station": "Sanjevani Hospital"
+    },
+    {
+      "osm_id": 6205680430,
+      "name": "Swagat Super Speciality Surgical Institute",
+      "unit_type": "ambulance",
+      "lat": 26.1603733,
+      "lng": 91.7073624,
+      "phone": "102",
+      "station": "Swagat Super Speciality Surgical Institute"
+    },
+    {
+      "osm_id": 6902810705,
+      "name": "Rahman Hospitals Private Limited",
+      "unit_type": "ambulance",
+      "lat": 26.1350283,
+      "lng": 91.8095034,
+      "phone": "361233444",
+      "station": "Rahman Hospitals Private Limited"
+    },
+    {
+      "osm_id": 6911724111,
+      "name": "Tolaram Bafna Kamrup District Civil Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.2074223,
+      "lng": 91.6771799,
+      "phone": "102",
+      "station": "Tolaram Bafna Kamrup District Civil Hospital"
+    },
+    {
+      "osm_id": 6913038505,
+      "name": "Aruna Memorial Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1658526,
+      "lng": 91.7691153,
+      "phone": "102",
+      "station": "Aruna Memorial Hospital"
+    },
+    {
+      "osm_id": 6913038510,
+      "name": "Dr Bhubaneswar Borooah Cancer Institue",
+      "unit_type": "ambulance",
+      "lat": 26.1653519,
+      "lng": 91.7470568,
+      "phone": "102",
+      "station": "Dr Bhubaneswar Borooah Cancer Institue"
+    },
+    {
+      "osm_id": 6913038537,
+      "name": "Nightingale Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1504675,
+      "lng": 91.7821106,
+      "phone": "102",
+      "station": "Nightingale Hospital"
+    },
+    {
+      "osm_id": 6913038542,
+      "name": "Hayat Hospital, Kamrup",
+      "unit_type": "ambulance",
+      "lat": 26.1390895,
+      "lng": 91.7463206,
+      "phone": "102",
+      "station": "Hayat Hospital, Kamrup"
+    },
+    {
+      "osm_id": 6913038555,
+      "name": "Sun Valley Hospital, Guwahati",
+      "unit_type": "ambulance",
+      "lat": 26.1382811,
+      "lng": 91.8010202,
+      "phone": "102",
+      "station": "Sun Valley Hospital, Guwahati"
+    },
+    {
+      "osm_id": 6913054603,
+      "name": "North East Cancer Hospital And Research Institute",
+      "unit_type": "ambulance",
+      "lat": 26.1007508,
+      "lng": 91.8699154,
+      "phone": "102",
+      "station": "North East Cancer Hospital And Research Institute"
+    },
+    {
+      "osm_id": 6913054638,
+      "name": "Arya Hospital (A Unit Of North Eastern Medical Research Institute Ltd)",
+      "unit_type": "ambulance",
+      "lat": 26.1746258,
+      "lng": 91.7525876,
+      "phone": "102",
+      "station": "Arya Hospital (A Unit Of North Eastern Medical Research Institute Ltd)"
+    },
+    {
+      "osm_id": 6913054639,
+      "name": "Pratiksha Hospitals",
+      "unit_type": "ambulance",
+      "lat": 26.158658,
+      "lng": 91.8118054,
+      "phone": "102",
+      "station": "Pratiksha Hospitals"
+    },
+    {
+      "osm_id": 6913054780,
+      "name": "Agile Hospitals Pvt Ltd",
+      "unit_type": "ambulance",
+      "lat": 26.1221319,
+      "lng": 91.8062693,
+      "phone": "102",
+      "station": "Agile Hospitals Pvt Ltd"
+    },
+    {
+      "osm_id": 6913054830,
+      "name": "Satribari Christian Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1769282,
+      "lng": 91.7465553,
+      "phone": "102",
+      "station": "Satribari Christian Hospital"
+    },
+    {
+      "osm_id": 6913054930,
+      "name": "Guwahati Netralaya Eye Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1714995,
+      "lng": 91.7376155,
+      "phone": "102",
+      "station": "Guwahati Netralaya Eye Hospital"
+    },
+    {
+      "osm_id": 6913054937,
+      "name": "KGMT Multispeciality Hospital, Hatigarh",
+      "unit_type": "ambulance",
+      "lat": 26.1719851,
+      "lng": 91.7814441,
+      "phone": "102",
+      "station": "KGMT Multispeciality Hospital, Hatigarh"
+    },
+    {
+      "osm_id": 6913054942,
+      "name": "Guwahati Eye Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1717757,
+      "lng": 91.7608166,
+      "phone": "102",
+      "station": "Guwahati Eye Hospital"
+    },
+    {
+      "osm_id": 6913054952,
+      "name": "Wintrobe Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1854972,
+      "lng": 91.7560047,
+      "phone": "3612519860",
+      "station": "Wintrobe Hospital"
+    },
+    {
+      "osm_id": 6913054957,
+      "name": "Institute Of Human Reproduction",
+      "unit_type": "ambulance",
+      "lat": 26.1669226,
+      "lng": 91.7312439,
+      "phone": "102",
+      "station": "Institute Of Human Reproduction"
+    },
+    {
+      "osm_id": 6913054967,
+      "name": "Marwari Hospital and Research Centre",
+      "unit_type": "ambulance",
+      "lat": 26.1721356,
+      "lng": 91.7404117,
+      "phone": "102",
+      "station": "Marwari Hospital and Research Centre"
+    },
+    {
+      "osm_id": 6913054968,
+      "name": "Midland Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1617305,
+      "lng": 91.7798576,
+      "phone": "102",
+      "station": "Midland Hospital"
+    },
+    {
+      "osm_id": 6913054978,
+      "name": "City Heart Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1724967,
+      "lng": 91.7714274,
+      "phone": "102",
+      "station": "City Heart Hospital"
+    },
+    {
+      "osm_id": 6913054985,
+      "name": "Dispur Hospitals Pvt Ltd",
+      "unit_type": "ambulance",
+      "lat": 26.1496128,
+      "lng": 91.7867147,
+      "phone": "9207043831",
+      "station": "Dispur Hospitals Pvt Ltd"
+    },
+    {
+      "osm_id": 6913175903,
+      "name": "Gnrc Six-mile Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1311817,
+      "lng": 91.8079403,
+      "phone": "102",
+      "station": "Gnrc Six-mile Hospital"
+    },
+    {
+      "osm_id": 6913175912,
+      "name": "G N R C Heart Institute",
+      "unit_type": "ambulance",
+      "lat": 26.1389733,
+      "lng": 91.7943965,
+      "phone": "102",
+      "station": "G N R C Heart Institute"
+    },
+    {
+      "osm_id": 6913288139,
+      "name": "Nemcare Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1634946,
+      "lng": 91.7683697,
+      "phone": "102",
+      "station": "Nemcare Hospital"
+    },
+    {
+      "osm_id": 6913288140,
+      "name": "Down Town Hospital Ltd.",
+      "unit_type": "ambulance",
+      "lat": 26.1392003,
+      "lng": 91.7994256,
+      "phone": "102",
+      "station": "Down Town Hospital Ltd."
+    },
+    {
+      "osm_id": 7150731759,
+      "name": "Azara 30 Bedded Rural Hospital(F.R.U)",
+      "unit_type": "ambulance",
+      "lat": 26.124633,
+      "lng": 91.617525,
+      "phone": "3612843518",
+      "station": "Azara 30 Bedded Rural Hospital(F.R.U)"
+    },
+    {
+      "osm_id": 7150731781,
+      "name": "Pandu FRU Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1606497,
+      "lng": 91.6887221,
+      "phone": "3612670201",
+      "station": "Pandu FRU Hospital"
+    },
+    {
+      "osm_id": 7150731834,
+      "name": "Govt. Ayurvedic College & Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1495333,
+      "lng": 91.6674002,
+      "phone": "36125770455",
+      "station": "Govt. Ayurvedic College & Hospital"
+    },
+    {
+      "osm_id": 7537680964,
+      "name": "Dr. Nitin Dutta Eye Foundation Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1676312,
+      "lng": 91.7788063,
+      "phone": "102",
+      "station": "Dr. Nitin Dutta Eye Foundation Hospital"
+    },
+    {
+      "osm_id": 7537681005,
+      "name": "Eye Clinic",
+      "unit_type": "ambulance",
+      "lat": 26.1310897,
+      "lng": 91.8088994,
+      "phone": "102",
+      "station": "Eye Clinic"
+    },
+    {
+      "osm_id": 7537681013,
+      "name": "Sarma Gynae & Obs Clinic",
+      "unit_type": "ambulance",
+      "lat": 26.1304526,
+      "lng": 91.8079674,
+      "phone": "102",
+      "station": "Sarma Gynae & Obs Clinic"
+    },
+    {
+      "osm_id": 7537681034,
+      "name": "Outpatient clinic1",
+      "unit_type": "ambulance",
+      "lat": 26.1313723,
+      "lng": 91.8085923,
+      "phone": "102",
+      "station": "Outpatient clinic1"
+    },
+    {
+      "osm_id": 7541546151,
+      "name": "Maternity & Child Welfare Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1458262,
+      "lng": 91.7274383,
+      "phone": "102",
+      "station": "Maternity & Child Welfare Hospital"
+    },
+    {
+      "osm_id": 7541546161,
+      "name": "Critical Care Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1454737,
+      "lng": 91.7411135,
+      "phone": "102",
+      "station": "Critical Care Hospital"
+    },
+    {
+      "osm_id": 7541546188,
+      "name": "Central Hospital, Maligaon",
+      "unit_type": "ambulance",
+      "lat": 26.1509561,
+      "lng": 91.694464,
+      "phone": "102",
+      "station": "Central Hospital, Maligaon"
+    },
+    {
+      "osm_id": 11687780154,
+      "name": "Wipro GE Healthcare Private Ltd.",
+      "unit_type": "ambulance",
+      "lat": 26.1651971,
+      "lng": 91.7795015,
+      "phone": "102",
+      "station": "Wipro GE Healthcare Private Ltd."
+    },
+    {
+      "osm_id": 11833697370,
+      "name": "Apollo Excelcare Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1280003,
+      "lng": 91.6814189,
+      "phone": "102",
+      "station": "Apollo Excelcare Hospital"
+    },
+    {
+      "osm_id": 12470636101,
+      "name": "151 Base Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1035923,
+      "lng": 91.797421,
+      "phone": "102",
+      "station": "151 Base Hospital"
+    },
+    {
+      "osm_id": 12973082004,
+      "name": "state police accountability commission, assam",
+      "unit_type": "police",
+      "lat": 26.1728706,
+      "lng": 91.7633521,
+      "phone": "100",
+      "station": "state police accountability commission, assam"
+    },
+    {
+      "osm_id": 12976265036,
+      "name": "MARWARI HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.171787,
+      "lng": 91.7403051,
+      "phone": "102",
+      "station": "MARWARI HOSPITAL"
+    },
+    {
+      "osm_id": 12976374613,
+      "name": "APOLLO HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1745848,
+      "lng": 91.7727582,
+      "phone": "102",
+      "station": "APOLLO HOSPITAL"
+    },
+    {
+      "osm_id": 12976833828,
+      "name": "KIMS HOSPITAL CLINIC",
+      "unit_type": "ambulance",
+      "lat": 26.1665774,
+      "lng": 91.7793794,
+      "phone": "102",
+      "station": "KIMS HOSPITAL CLINIC"
+    },
+    {
+      "osm_id": 12977236602,
+      "name": "Eye care medico",
+      "unit_type": "ambulance",
+      "lat": 26.1442034,
+      "lng": 91.7815068,
+      "phone": "102",
+      "station": "Eye care medico"
+    },
+    {
+      "osm_id": 13016771424,
+      "name": "Gate Hospitals",
+      "unit_type": "ambulance",
+      "lat": 26.1781709,
+      "lng": 91.8040736,
+      "phone": "102",
+      "station": "Gate Hospitals"
+    },
+    {
+      "osm_id": 13016790569,
+      "name": "KGMT HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1723864,
+      "lng": 91.781511,
+      "phone": "102",
+      "station": "KGMT HOSPITAL"
+    },
+    {
+      "osm_id": 13506229594,
+      "name": "H.M. Hospital , Hatigaon",
+      "unit_type": "ambulance",
+      "lat": 26.130908,
+      "lng": 91.786135,
+      "phone": "102",
+      "station": "H.M. Hospital , Hatigaon"
+    },
+    {
+      "osm_id": 13511238160,
+      "name": "Latasil Police Station",
+      "unit_type": "police",
+      "lat": 26.1899395,
+      "lng": 91.7519146,
+      "phone": "100",
+      "station": "Latasil Police Station"
+    },
+    {
+      "osm_id": 13511289074,
+      "name": "WINTROBE HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1851882,
+      "lng": 91.756084,
+      "phone": "102",
+      "station": "WINTROBE HOSPITAL"
+    },
+    {
+      "osm_id": 13511399119,
+      "name": "ADVANCE NEUROSCIENCE HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1450407,
+      "lng": 91.7852575,
+      "phone": "102",
+      "station": "ADVANCE NEUROSCIENCE HOSPITAL"
+    },
+    {
+      "osm_id": 13511618593,
+      "name": "Name care hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1641904,
+      "lng": 91.7693287,
+      "phone": "102",
+      "station": "Name care hospital"
+    },
+    {
+      "osm_id": 13511670283,
+      "name": "NEMCARE HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1641904,
+      "lng": 91.7691448,
+      "phone": "102",
+      "station": "NEMCARE HOSPITAL"
+    },
+    {
+      "osm_id": 13516613210,
+      "name": "DOCTORS CHAMBER",
+      "unit_type": "ambulance",
+      "lat": 26.1414434,
+      "lng": 91.726007,
+      "phone": "102",
+      "station": "DOCTORS CHAMBER"
+    },
+    {
+      "osm_id": 13516613211,
+      "name": "SEEMA MEDICOS",
+      "unit_type": "ambulance",
+      "lat": 26.1413861,
+      "lng": 91.7259884,
+      "phone": "102",
+      "station": "SEEMA MEDICOS"
+    },
+    {
+      "osm_id": 13516940946,
+      "name": "Guwahati Netralaya eye hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1713661,
+      "lng": 91.737574,
+      "phone": "102",
+      "station": "Guwahati Netralaya eye hospital"
+    },
+    {
+      "osm_id": 13522423677,
+      "name": "Fancy bazaar police out post",
+      "unit_type": "police",
+      "lat": 26.1825586,
+      "lng": 91.7372664,
+      "phone": "100",
+      "station": "Fancy bazaar police out post"
+    },
+    {
+      "osm_id": 13522626388,
+      "name": "Latasil Police Station",
+      "unit_type": "police",
+      "lat": 26.1900236,
+      "lng": 91.7519449,
+      "phone": "100",
+      "station": "Latasil Police Station"
+    },
+    {
+      "osm_id": 13523388563,
+      "name": "Vision hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1760095,
+      "lng": 91.7400173,
+      "phone": "102",
+      "station": "Vision hospital"
+    },
+    {
+      "osm_id": 261074468,
+      "name": "GMCH Emergency Centre",
+      "unit_type": "ambulance",
+      "lat": 26.1601295,
+      "lng": 91.7670612,
+      "phone": "102",
+      "station": "GMCH Emergency Centre"
+    },
+    {
+      "osm_id": 736461152,
+      "name": "Apollo Hospitals",
+      "unit_type": "ambulance",
+      "lat": 26.1540188,
+      "lng": 91.7811817,
+      "phone": "102",
+      "station": "Apollo Hospitals"
+    },
+    {
+      "osm_id": 738302618,
+      "name": "GMC HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1594255,
+      "lng": 91.7686706,
+      "phone": "102",
+      "station": "GMC HOSPITAL"
+    },
+    {
+      "osm_id": 738302621,
+      "name": "Advance Neuro Science Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.1451545,
+      "lng": 91.7855418,
+      "phone": "102",
+      "station": "Advance Neuro Science Hospital"
+    },
+    {
+      "osm_id": 806033601,
+      "name": "GMCH PEDIATRIC DIVISION",
+      "unit_type": "ambulance",
+      "lat": 26.1596201,
+      "lng": 91.769999,
+      "phone": "102",
+      "station": "GMCH PEDIATRIC DIVISION"
+    },
+    {
+      "osm_id": 806448491,
+      "name": "Unnamed hospital facility",
+      "unit_type": "ambulance",
+      "lat": 26.1539888,
+      "lng": 91.6940927,
+      "phone": "102",
+      "station": "Unnamed hospital facility"
+    },
+    {
+      "osm_id": 833415498,
+      "name": "GNRC Institute of Medical Science",
+      "unit_type": "ambulance",
+      "lat": 26.2021448,
+      "lng": 91.6939491,
+      "phone": "102",
+      "station": "GNRC Institute of Medical Science"
+    },
+    {
+      "osm_id": 1217793677,
+      "name": "GMC HOSPITAL",
+      "unit_type": "ambulance",
+      "lat": 26.1593343,
+      "lng": 91.7691763,
+      "phone": "102",
+      "station": "GMC HOSPITAL"
+    },
+    {
+      "osm_id": 1217793682,
+      "name": "GMC DENTAL HOSPITAL AND COLLEGE",
+      "unit_type": "ambulance",
+      "lat": 26.160285,
+      "lng": 91.7700909,
+      "phone": "102",
+      "station": "GMC DENTAL HOSPITAL AND COLLEGE"
+    },
+    {
+      "osm_id": 1304575005,
+      "name": "Maligaon Railway Hospital",
+      "unit_type": "ambulance",
+      "lat": 26.152101,
+      "lng": 91.694912,
+      "phone": "102",
+      "station": "Maligaon Railway Hospital"
+    },
+    {
+      "osm_id": 1334976165,
+      "name": "Unnamed hospital facility",
+      "unit_type": "ambulance",
+      "lat": 26.1706553,
+      "lng": 91.7626832,
+      "phone": "102",
+      "station": "Unnamed hospital facility"
+    }
+  ]
+}

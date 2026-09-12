@@ -1,0 +1,120 @@
+{
+  "dataset": "Smart Tourist Safety -- synthetic corpus",
+  "parameters": {
+    "seed": 42,
+    "tourists": 750,
+    "window_days": 45,
+    "generated_at": "2026-09-05 18:38:50",
+    "profile_rows": {
+      "ml_movement": 120000,
+      "ml_safety": 150000,
+      "ml_incident_points": 25000
+    }
+  },
+  "files": [
+    {
+      "file": "alerts.csv",
+      "rows": 37887,
+      "bytes": 4542819,
+      "sha256": "bcf541a1cab1baf7ecdd392093d8b9dcd89c560a38d9a4869dc6ac5eacd1b552"
+    },
+    {
+      "file": "audit_logs.csv",
+      "rows": 7554,
+      "bytes": 781962,
+      "sha256": "cca2e476bd666844da14de8644c4b98076d4333c2d07d404bb356f0300d37758"
+    },
+    {
+      "file": "device_telemetry.csv",
+      "rows": 14134,
+      "bytes": 1189074,
+      "sha256": "d6d615163cdf88afb18ba5d57632885ad7bfc069e882bca6ed295ee64523e0a8"
+    },
+    {
+      "file": "devices.csv",
+      "rows": 232,
+      "bytes": 25634,
+      "sha256": "b15638ad9656e828018cf6bd43ba61ba3ac40190829abe642ee7ec7c84aaa533"
+    },
+    {
+      "file": "efirs.csv",
+      "rows": 14,
+      "bytes": 6436,
+      "sha256": "0f15189267cbe732835de68e7178510e19c9047a16a9d598830020b396ece8c1"
+    },
+    {
+      "file": "id_chain_events.csv",
+      "rows": 2860,
+      "bytes": 406146,
+      "sha256": "875ae34fb61f2988a6066da47d8d24b3b5fd627dd86a49a687216153ec3ead48"
+    },
+    {
+      "file": "incident_events.csv",
+      "rows": 12943,
+      "bytes": 1112684,
+      "sha256": "751753bec22c43f41ee35affacced3f816c276347c51d703450f42e65dd0d609"
+    },
+    {
+      "file": "incidents.csv",
+      "rows": 3549,
+      "bytes": 617189,
+      "sha256": "9474ed1717602457ec003b0b0575ada74c04fdb7b3efd7c3eabdff7dde66e59f"
+    },
+    {
+      "file": "location_pings.csv",
+      "rows": 201609,
+      "bytes": 22244714,
+      "sha256": "215ba1c24fabb1d6aaf531cb6bd5fa2c8ba1338eb1068215cc8aa3c92b849f30"
+    },
+    {
+      "file": "ml_incident_points.csv",
+      "rows": 24989,
+      "bytes": 851299,
+      "sha256": "b9e0702d6b6a8fc0fae17281104be5a1ec43a9fd04b2feb703925904d03c3fb8"
+    },
+    {
+      "file": "ml_movement.csv",
+      "rows": 120000,
+      "bytes": 4245539,
+      "sha256": "4453ca5e410b706413c7a2148adc5cf013d2b4e97d6c59f24bdcd3c114aaf8ad"
+    },
+    {
+      "file": "ml_safety.csv",
+      "rows": 150000,
+      "bytes": 6432544,
+      "sha256": "6be7727f81606775254500ffdb7cc1a616c0142a95c0d42555bc0f30ac4a585c"
+    },
+    {
+      "file": "police_units.csv",
+      "rows": 22,
+      "bytes": 1616,
+      "sha256": "d1565929639f7ad062da6b99f926cfe0722984fb88364320a926de211e6c2cc0"
+    },
+    {
+      "file": "tourists.csv",
+      "rows": 750,
+      "bytes": 929139,
+      "sha256": "721a50948f842ef54f8048b0603c1ada38238611bdccd9c4c0e450b3f8024c65"
+    },
+    {
+      "file": "users.csv",
+      "rows": 626,
+      "bytes": 56783,
+      "sha256": "f7cecdbfaef4a19c57163c226495070487d3b19dc4aefbf3c06d298c6d9088d9"
+    },
+    {
+      "file": "weather_observations.csv",
+      "rows": 4028,
+      "bytes": 340202,
+      "sha256": "b297fb66698edb9597a2ab80e4e9a87c427ac0b88540b94072e8b06f2f7c9609"
+    },
+    {
+      "file": "zones.csv",
+      "rows": 34,
+      "bytes": 7604,
+      "sha256": "7141cc92ae758e8b11c3ce5e7b41a989a909c7f2b2c2b5b7b4a1568d71dce9f6"
+    }
+  ],
+  "total_bytes": 43791384,
+  "total_rows": 581231
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>IN-NDMA-2026-000123</identifier>
+  <sender>ndma.gov.in</sender>
+  <sent>2026-09-01T06:00:00+05:30</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <category>Met</category>
+    <event>Flash Flood Warning</event>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <effective>2026-09-01T06:00:00+05:30</effective>
+    <expires>2026-09-01T18:00:00+05:30</expires>
+    <headline>Flash flood warning for Kamrup Metropolitan district</headline>
+    <description>Heavy rainfall over the last 24 hours has raised river levels. Residents and tourists near riverbanks are advised to move to higher ground.</description>
+    <area>
+      <areaDesc>Kamrup Metropolitan, Assam</areaDesc>
+      <polygon>26.10,91.65 26.10,91.85 26.25,91.85 26.25,91.65 26.10,91.65</polygon>
+    </area>
+  </info>
+</alert>
