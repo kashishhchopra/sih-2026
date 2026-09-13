@@ -2,7 +2,7 @@
 the area-based police network (see services/police_network.py, services/cctv.py)."""
 from datetime import datetime
 
-from sqlalchemy import DateTime, Float, ForeignKey, Integer, String
+from sqlalchemy import BigInteger, DateTime, Float, ForeignKey, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.core.time import utc_now
@@ -23,7 +23,8 @@ class PoliceUnit(Base):
     unit_type: Mapped[str] = mapped_column(String, default="police")
     # OpenStreetMap node/way id, set only for units imported by
     # services/poi.py -- lets a re-import upsert instead of duplicating.
-    osm_id: Mapped[int | None] = mapped_column(Integer, nullable=True, unique=True)
+    # BigInteger: real OSM way/relation ids can exceed 32-bit range.
+    osm_id: Mapped[int | None] = mapped_column(BigInteger, nullable=True, unique=True)
     # "manual" (hand-written fixture) or "osm" (imported from OpenStreetMap).
     source: Mapped[str] = mapped_column(String, default="manual", server_default="manual")
 
