@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Card } from './ui.jsx'
 import { speak, speechSynthesisSupported } from '../lib/voiceService.js'
 import { listLanguages, listPhraseIds, translatePhrase as apiTranslatePhrase, translateText as apiTranslateText } from '../lib/translationService.js'
+import { useLocalsLanguage } from '../lib/touristMode.js'
 
 // Multilingual translation: curated, reviewed safety phrases (works with no
 // external API key -- see backend/services/translation.py) plus free-text
@@ -14,7 +15,8 @@ export default function TranslateCard() {
   const [open, setOpen] = useState(false)
   const [languages, setLanguages] = useState({})
   const [phraseIds, setPhraseIds] = useState([])
-  const [lang, setLang] = useState('hi')
+  // Shared "language to speak to the local person in" -- see lib/touristMode.js.
+  const [lang, setLang] = useLocalsLanguage()
   const [result, setResult] = useState(null)
   const [text, setText] = useState('')
   const [error, setError] = useState('')

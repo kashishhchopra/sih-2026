@@ -95,6 +95,24 @@ describe('useSpeechRecognition', () => {
     expect(FakeRecognition.instances[0].lang).toBe('hi-IN')
   })
 
+  it('surfaces an error instead of getting stuck when start() throws synchronously', () => {
+    // Regression test: some browsers throw (e.g. InvalidStateError, or a
+    // mic-permission refusal) synchronously from start() instead of firing
+    // onerror -- without a try/catch this left `listening` stuck true
+    // forever with no visible error, indistinguishable from the button
+    // simply not working.
+    class ThrowingRecognition extends FakeRecognition {
+      start() {
+        throw new DOMException('mic blocked', 'NotAllowedError')
+      }
+    }
+    window.SpeechRecognition = ThrowingRecognition
+    const { result } = renderHook(() => useSpeechRecognition())
+    act(() => result.current.start())
+    expect(result.current.listening).toBe(false)
+    expect(result.current.error).toBe('NotAllowedError')
+  })
+
   it('does not start a second recognition while already listening', () => {
     window.SpeechRecognition = FakeRecognition
     const { result } = renderHook(() => useSpeechRecognition())

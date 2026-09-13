@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "العملة والسعر",
+    "intro": "حوّل سعرًا بالروبية الهندية (₹) إلى عملتك باستخدام أسعار الصرف الحية.",
+    "amount_placeholder": "المبلغ بالروبية",
+    "convert_button": "تحويل",
+    "converting": "جارٍ التحويل…",
+    "rate_note": "السعر: 1 ₹ = {{rate}}",
+    "failed": "تعذر تحويل العملة الآن."
+  },
   "digital_id": {
     "brand": "🛡️ هوية TOURSHIELD",
     "cancel": "إلغاء",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "اضغط مرة أخرى للتأكيد",
     "title": "🚨 وضع الطوارئ"
   },
+  "etiquette": {
+    "card_title": "دليل الآداب الثقافية",
+    "intro": "عادات وآداب عامة لزيارة الهند.",
+    "topic_greetings": "التحيات",
+    "topic_temples": "المعابد",
+    "topic_dress": "قواعد اللباس",
+    "topic_dining": "تناول الطعام",
+    "topic_tipping": "البقشيش",
+    "topic_photography": "التصوير الفوتوغرافي",
+    "listen": "استمع",
+    "not_translated": "لم تتم الترجمة إلى هذه اللغة بعد — يتم عرض الإنجليزية.",
+    "failed": "تعذر تحميل دليل الآداب الآن."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "طبي",
     "category_shopping": "Shopping",
+    "category_taxi": "سيارة أجرة",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "لم تتم الترجمة إلى هذه اللغة بعد — يتم عرض الإنجليزية."
   },
   "help": {
     "ask_safety_helper": "💬 اسأل مساعد السلامة"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "تعذر الوصول إلى الميكروفون — تحقق من إذن الميكروفون وحاول مرة أخرى.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "通貨と価格",
+    "intro": "リアルタイムの為替レートを使ってインドルピー（₹）の価格を自国通貨に変換します。",
+    "amount_placeholder": "金額（₹）",
+    "convert_button": "変換",
+    "converting": "変換中…",
+    "rate_note": "レート: 1 ₹ = {{rate}}",
+    "failed": "現在通貨を変換できませんでした。"
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ID",
     "cancel": "キャンセル",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "確認するにはもう一度タップ",
     "title": "🚨 緊急モード"
   },
+  "etiquette": {
+    "card_title": "文化的エチケットガイド",
+    "intro": "インド訪問のための一般的な習慣とエチケットのヒント。",
+    "topic_greetings": "挨拶",
+    "topic_temples": "寺院",
+    "topic_dress": "服装規定",
+    "topic_dining": "食事",
+    "topic_tipping": "チップ",
+    "topic_photography": "写真撮影",
+    "listen": "聞く",
+    "not_translated": "この言語への翻訳はまだありません。英語を表示しています。",
+    "failed": "現在エチケットガイドを読み込めませんでした。"
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "医療",
     "category_shopping": "Shopping",
+    "category_taxi": "タクシー",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "この言語への翻訳はまだありません。英語を表示しています。"
   },
   "help": {
     "ask_safety_helper": "💬 安全アシスタントに聞く"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "マイクにアクセスできませんでした。マイクの権限を確認してもう一度お試しください。",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

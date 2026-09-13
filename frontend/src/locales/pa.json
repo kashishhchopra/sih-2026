@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "ਮੁਦਰਾ ਅਤੇ ਕੀਮਤ",
+    "intro": "ਲਾਈਵ ਵਟਾਂਦਰਾ ਦਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਭਾਰਤੀ ਰੁਪਏ (₹) ਦੀ ਕੀਮਤ ਨੂੰ ਆਪਣੀ ਮੁਦਰਾ ਵਿੱਚ ਬਦਲੋ।",
+    "amount_placeholder": "ਰਕਮ (₹ ਵਿੱਚ)",
+    "convert_button": "ਬਦਲੋ",
+    "converting": "ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ…",
+    "rate_note": "ਦਰ: 1 ₹ = {{rate}}",
+    "failed": "ਹੁਣ ਮੁਦਰਾ ਨਹੀਂ ਬਦਲੀ ਜਾ ਸਕੀ।"
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ਆਈਡੀ",
     "cancel": "ਰੱਦ ਕਰੋ",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਦੁਬਾਰਾ ਟੈਪ ਕਰੋ",
     "title": "🚨 ਐਮਰਜੈਂਸੀ ਮੋਡ"
   },
+  "etiquette": {
+    "card_title": "ਸੱਭਿਆਚਾਰਕ ਸ਼ਿਸ਼ਟਾਚਾਰ ਗਾਈਡ",
+    "intro": "ਭਾਰਤ ਆਉਣ ਲਈ ਆਮ ਰੀਤੀ-ਰਿਵਾਜ ਅਤੇ ਸ਼ਿਸ਼ਟਾਚਾਰ ਸੁਝਾਅ।",
+    "topic_greetings": "ਸਤਿਕਾਰ",
+    "topic_temples": "ਮੰਦਰ",
+    "topic_dress": "ਪਹਿਰਾਵਾ",
+    "topic_dining": "ਖਾਣਾ",
+    "topic_tipping": "ਟਿਪ",
+    "topic_photography": "ਫੋਟੋਗ੍ਰਾਫੀ",
+    "listen": "ਸੁਣੋ",
+    "not_translated": "ਇਸ ਭਾਸ਼ਾ ਵਿੱਚ ਅਜੇ ਅਨੁਵਾਦ ਨਹੀਂ ਹੋਇਆ — ਅੰਗਰੇਜ਼ੀ ਦਿਖਾਈ ਜਾ ਰਹੀ ਹੈ।",
+    "failed": "ਹੁਣ ਸ਼ਿਸ਼ਟਾਚਾਰ ਗਾਈਡ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ।"
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "ਮੈਡੀਕਲ",
     "category_shopping": "Shopping",
+    "category_taxi": "ਟੈਕਸੀ",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "ਇਸ ਭਾਸ਼ਾ ਵਿੱਚ ਅਜੇ ਅਨੁਵਾਦ ਨਹੀਂ ਹੋਇਆ — ਅੰਗਰੇਜ਼ੀ ਦਿਖਾਈ ਜਾ ਰਹੀ ਹੈ।"
   },
   "help": {
     "ask_safety_helper": "💬 ਸੁਰੱਖਿਆ ਸਹਾਇਕ ਨੂੰ ਪੁੱਛੋ"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਹੋ ਸਕੀ — ਕਿਰਪਾ ਕਰਕੇ ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਦੀ ਇਜਾਜ਼ਤ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

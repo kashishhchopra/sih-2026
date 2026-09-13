@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "चलन आणि किंमत",
+    "intro": "लाइव्ह विनिमय दर वापरून भारतीय रुपया (₹) ची किंमत तुमच्या चलनात रूपांतरित करा.",
+    "amount_placeholder": "रक्कम (₹ मध्ये)",
+    "convert_button": "रूपांतरित करा",
+    "converting": "रूपांतरित करत आहे…",
+    "rate_note": "दर: 1 ₹ = {{rate}}",
+    "failed": "सध्या चलन रूपांतरित करता आले नाही."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ओळखपत्र",
     "cancel": "रद्द करा",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "पुष्टी करण्यासाठी पुन्हा टॅप करा",
     "title": "🚨 आणीबाणी मोड"
   },
+  "etiquette": {
+    "card_title": "सांस्कृतिक शिष्टाचार मार्गदर्शक",
+    "intro": "भारतात येण्यासाठी सामान्य चालीरीती आणि शिष्टाचार टिप्स.",
+    "topic_greetings": "अभिवादन",
+    "topic_temples": "मंदिरे",
+    "topic_dress": "पेहराव",
+    "topic_dining": "जेवण",
+    "topic_tipping": "टीप",
+    "topic_photography": "छायाचित्रण",
+    "listen": "ऐका",
+    "not_translated": "या भाषेत अद्याप भाषांतर झालेले नाही — इंग्रजी दाखवले जात आहे.",
+    "failed": "सध्या शिष्टाचार मार्गदर्शक लोड होऊ शकले नाही."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "वैद्यकीय",
     "category_shopping": "Shopping",
+    "category_taxi": "टॅक्सी",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "या भाषेत अद्याप भाषांतर झालेले नाही — इंग्रजी दाखवले जात आहे."
   },
   "help": {
     "ask_safety_helper": "💬 सुरक्षा सहाय्यकाला विचारा"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "मायक्रोफोन अॅक्सेस करता आले नाही — कृपया मायक्रोफोन परवानगी तपासा आणि पुन्हा प्रयत्न करा.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

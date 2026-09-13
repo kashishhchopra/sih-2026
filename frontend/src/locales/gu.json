@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "ચલણ અને ભાવ",
+    "intro": "લાઇવ વિનિમય દરોનો ઉપયોગ કરીને ભારતીય રૂપિયા (₹)ની કિંમતને તમારા ચલણમાં રૂપાંતરિત કરો.",
+    "amount_placeholder": "રકમ (₹ માં)",
+    "convert_button": "રૂપાંતરિત કરો",
+    "converting": "રૂપાંતરિત થઈ રહ્યું છે…",
+    "rate_note": "દર: 1 ₹ = {{rate}}",
+    "failed": "અત્યારે ચલણ રૂપાંતરિત થઈ શક્યું નથી."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ID",
     "cancel": "રદ કરો",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "પુષ્ટિ કરવા માટે ફરીથી ટૅપ કરો",
     "title": "🚨 કટોકટી મોડ"
   },
+  "etiquette": {
+    "card_title": "સાંસ્કૃતિક શિષ્ટાચાર માર્ગદર્શિકા",
+    "intro": "ભારતની મુલાકાત માટે સામાન્ય રિવાજો અને શિષ્ટાચાર ટિપ્સ.",
+    "topic_greetings": "અભિવાદન",
+    "topic_temples": "મંદિરો",
+    "topic_dress": "પોશાક સંહિતા",
+    "topic_dining": "ભોજન",
+    "topic_tipping": "ટિપ",
+    "topic_photography": "ફોટોગ્રાફી",
+    "listen": "સાંભળો",
+    "not_translated": "આ ભાષામાં હજુ અનુવાદ થયો નથી — અંગ્રેજી બતાવવામાં આવી રહ્યું છે.",
+    "failed": "અત્યારે શિષ્ટાચાર માર્ગદર્શિકા લોડ થઈ શકી નથી."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "તબીબી",
     "category_shopping": "Shopping",
+    "category_taxi": "ટેક્સી",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "આ ભાષામાં હજુ અનુવાદ થયો નથી — અંગ્રેજી બતાવવામાં આવી રહ્યું છે."
   },
   "help": {
     "ask_safety_helper": "💬 સુરક્ષા સહાયકને પૂછો"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "માઇક્રોફોન ઍક્સેસ કરી શકાયું નથી — કૃપા કરી માઇક્રોફોનની પરવાનગી તપાસો અને ફરી પ્રયાસ કરો.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

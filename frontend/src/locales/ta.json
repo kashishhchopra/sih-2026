@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "நாணயம் மற்றும் விலை",
+    "intro": "நேரடி மாற்று விகிதங்களைப் பயன்படுத்தி இந்திய ரூபாய் (₹) விலையை உங்கள் நாணயத்திற்கு மாற்றவும்.",
+    "amount_placeholder": "தொகை (₹ இல்)",
+    "convert_button": "மாற்று",
+    "converting": "மாற்றப்படுகிறது…",
+    "rate_note": "விகிதம்: 1 ₹ = {{rate}}",
+    "failed": "இப்போது நாணயத்தை மாற்ற முடியவில்லை."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ஐடி",
     "cancel": "ரத்து செய்",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "உறுதிப்படுத்த மீண்டும் தட்டவும்",
     "title": "🚨 அவசர முறை"
   },
+  "etiquette": {
+    "card_title": "கலாச்சார மரியாதை வழிகாட்டி",
+    "intro": "இந்தியாவிற்கு வருகை தருவதற்கான பொதுவான பழக்கவழக்கங்கள் மற்றும் மரியாதை குறிப்புகள்.",
+    "topic_greetings": "வணக்கங்கள்",
+    "topic_temples": "கோவில்கள்",
+    "topic_dress": "உடை முறை",
+    "topic_dining": "உணவு",
+    "topic_tipping": "பணத்தட்டு",
+    "topic_photography": "புகைப்படம்",
+    "listen": "கேளுங்கள்",
+    "not_translated": "இந்த மொழியில் இன்னும் மொழிபெயர்க்கப்படவில்லை — ஆங்கிலம் காட்டப்படுகிறது.",
+    "failed": "இப்போது மரியாதை வழிகாட்டியை ஏற்ற முடியவில்லை."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "மருத்துவம்",
     "category_shopping": "Shopping",
+    "category_taxi": "டாக்ஸி",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "இந்த மொழியில் இன்னும் மொழிபெயர்க்கப்படவில்லை — ஆங்கிலம் காட்டப்படுகிறது."
   },
   "help": {
     "ask_safety_helper": "💬 பாதுகாப்பு உதவியாளரிடம் கேளுங்கள்"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "மைக்ரோஃபோனை அணுக முடியவில்லை — மைக்ரோஃபோன் அனுமதியை சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

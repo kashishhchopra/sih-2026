@@ -9,6 +9,8 @@ import TwoWayVoiceTranslator from '../../../components/TwoWayVoiceTranslator.jsx
 import FestivalCalendarCard from '../../../components/FestivalCalendarCard.jsx'
 import PermitCard from '../../../components/PermitCard.jsx'
 import FairPriceCard from '../../../components/FairPriceCard.jsx'
+import CulturalEtiquetteCard from '../../../components/CulturalEtiquetteCard.jsx'
+import CurrencyCard from '../../../components/CurrencyCard.jsx'
 import { DEFAULT_MAP } from '../../../config.js'
 
 // Explore: trip planning, crowd/queue forecasting, off-the-beaten-path
@@ -35,6 +37,8 @@ export default function ExploreTab({ data }) {
       <FestivalCalendarCard lat={lat} lng={lng} />
       <GuidePhrasebookCard lang={lang} />
       <TwoWayVoiceTranslator />
+      <CulturalEtiquetteCard lang={lang} />
+      <CurrencyCard />
       <FairPriceCard touristId={tid} lat={lat} lng={lng} />
       <PermitCard touristId={tid} />
     </div>

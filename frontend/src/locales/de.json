@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "Währung & Preis",
+    "intro": "Wandeln Sie einen Preis in indischen Rupien (₹) mit aktuellen Wechselkursen in Ihre Heimatwährung um.",
+    "amount_placeholder": "Betrag in ₹",
+    "convert_button": "Umrechnen",
+    "converting": "Wird umgerechnet…",
+    "rate_note": "Kurs: 1 ₹ = {{rate}}",
+    "failed": "Die Währung konnte gerade nicht umgerechnet werden."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD-ID",
     "cancel": "Abbrechen",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "Zum Bestätigen erneut tippen",
     "title": "🚨 Notfallmodus"
   },
+  "etiquette": {
+    "card_title": "Kultureller Etikette-Leitfaden",
+    "intro": "Allgemeine Bräuche und Etikette-Tipps für einen Besuch in Indien.",
+    "topic_greetings": "Begrüßungen",
+    "topic_temples": "Tempel",
+    "topic_dress": "Kleiderordnung",
+    "topic_dining": "Essen",
+    "topic_tipping": "Trinkgeld",
+    "topic_photography": "Fotografie",
+    "listen": "Anhören",
+    "not_translated": "Noch nicht in diese Sprache übersetzt — Englisch wird angezeigt.",
+    "failed": "Der Etikette-Leitfaden konnte gerade nicht geladen werden."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "Medizinisch",
     "category_shopping": "Shopping",
+    "category_taxi": "Taxi",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "Noch nicht in diese Sprache übersetzt — Englisch wird angezeigt."
   },
   "help": {
     "ask_safety_helper": "💬 Sicherheitshelfer fragen"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "Auf das Mikrofon konnte nicht zugegriffen werden — bitte die Mikrofonberechtigung prüfen und erneut versuchen.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

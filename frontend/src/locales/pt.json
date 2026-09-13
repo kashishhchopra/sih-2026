@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "Moeda e preço",
+    "intro": "Converta um preço em rúpias indianas (₹) para sua moeda usando taxas de câmbio em tempo real.",
+    "amount_placeholder": "Valor em ₹",
+    "convert_button": "Converter",
+    "converting": "Convertendo…",
+    "rate_note": "Taxa: 1 ₹ = {{rate}}",
+    "failed": "Não foi possível converter a moeda agora."
+  },
   "digital_id": {
     "brand": "🛡️ ID TOURSHIELD",
     "cancel": "Cancelar",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "Toque novamente para confirmar",
     "title": "🚨 Modo de emergência"
   },
+  "etiquette": {
+    "card_title": "Guia de etiqueta cultural",
+    "intro": "Costumes gerais e dicas de etiqueta para visitar a Índia.",
+    "topic_greetings": "Cumprimentos",
+    "topic_temples": "Templos",
+    "topic_dress": "Código de vestimenta",
+    "topic_dining": "Refeições",
+    "topic_tipping": "Gorjeta",
+    "topic_photography": "Fotografia",
+    "listen": "Ouvir",
+    "not_translated": "Ainda não traduzido para este idioma — mostrando em inglês.",
+    "failed": "Não foi possível carregar o guia de etiqueta agora."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "Médico",
     "category_shopping": "Shopping",
+    "category_taxi": "Táxi",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "Ainda não traduzido para este idioma — mostrando em inglês."
   },
   "help": {
     "ask_safety_helper": "💬 Perguntar ao assistente de segurança"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "Não foi possível acessar o microfone — verifique a permissão do microfone e tente novamente.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

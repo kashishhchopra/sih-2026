@@ -6,7 +6,9 @@ import {
   listGuideCategories, listGuidePhraseIds, translateGuidePhrase,
 } from '../lib/translationService.js'
 
-const CATEGORY_ICON = { greetings: '👋', directions: '🧭', food: '🍽️', shopping: '🛍️' }
+const CATEGORY_ICON = {
+  greetings: '👋', directions: '🧭', food: '🍽️', shopping: '🛍️', medical: '🏥', taxi: '🚕',
+}
 
 // Multilingual Guide: an everyday phrasebook (greetings, directions, food,
 // shopping) in the tourist's chosen language, beyond the safety-critical
@@ -67,6 +69,11 @@ export default function GuidePhrasebookCard({ lang }) {
       {result && (
         <div className="bg-slate-50 dark:bg-slate-700/50 rounded-lg p-3 text-sm font-medium text-slate-800 dark:text-slate-100">
           {result.text ?? result.error}
+          {result.demo && result.text && (
+            <div className="text-xs font-normal text-orange-600 dark:text-orange-400 mt-1">
+              {t('guide.not_translated')}
+            </div>
+          )}
         </div>
       )}
     </Card>

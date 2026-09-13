@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "Currency & Price",
+    "intro": "Convert an Indian Rupee (₹) price into your home currency using live exchange rates.",
+    "amount_placeholder": "Amount in ₹",
+    "convert_button": "Convert",
+    "converting": "Converting…",
+    "rate_note": "Rate: 1 ₹ = {{rate}}",
+    "failed": "Couldn't convert currency right now."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ID",
     "cancel": "Cancel",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "Tap again to confirm",
     "title": "🚨 Emergency Mode"
   },
+  "etiquette": {
+    "card_title": "Cultural Etiquette Guide",
+    "intro": "General customs and etiquette tips for visiting India.",
+    "topic_greetings": "Greetings",
+    "topic_temples": "Temples",
+    "topic_dress": "Dress Code",
+    "topic_dining": "Dining",
+    "topic_tipping": "Tipping",
+    "topic_photography": "Photography",
+    "listen": "Listen",
+    "not_translated": "Not yet translated into this language — showing English.",
+    "failed": "Couldn't load the etiquette guide right now."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "Medical",
     "category_shopping": "Shopping",
+    "category_taxi": "Taxi",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "Not yet translated into this language — showing English."
   },
   "help": {
     "ask_safety_helper": "💬 Ask the Safety Helper"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "Couldn't access the microphone — check mic permission and try again.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

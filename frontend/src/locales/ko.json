@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "통화 및 가격",
+    "intro": "실시간 환율을 사용하여 인도 루피(₹) 가격을 자국 통화로 변환합니다.",
+    "amount_placeholder": "금액 (₹)",
+    "convert_button": "변환",
+    "converting": "변환 중…",
+    "rate_note": "환율: 1 ₹ = {{rate}}",
+    "failed": "지금은 통화를 변환할 수 없습니다."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ID",
     "cancel": "취소",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "확인하려면 다시 탭하세요",
     "title": "🚨 긴급 모드"
   },
+  "etiquette": {
+    "card_title": "문화 예절 가이드",
+    "intro": "인도 방문을 위한 일반적인 관습과 예절 팁.",
+    "topic_greetings": "인사",
+    "topic_temples": "사원",
+    "topic_dress": "복장 규정",
+    "topic_dining": "식사",
+    "topic_tipping": "팁",
+    "topic_photography": "사진 촬영",
+    "listen": "듣기",
+    "not_translated": "아직 이 언어로 번역되지 않았습니다 — 영어로 표시됩니다.",
+    "failed": "지금은 예절 가이드를 불러올 수 없습니다."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "의료",
     "category_shopping": "Shopping",
+    "category_taxi": "택시",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "아직 이 언어로 번역되지 않았습니다 — 영어로 표시됩니다."
   },
   "help": {
     "ask_safety_helper": "💬 안전 도우미에게 물어보기"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "마이크에 접근할 수 없습니다 — 마이크 권한을 확인하고 다시 시도해 주세요.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "মুদ্ৰা আৰু মূল্য",
+    "intro": "লাইভ বিনিময় হাৰ ব্যৱহাৰ কৰি ভাৰতীয় ৰুপী (₹)ৰ মূল্য আপোনাৰ নিজৰ মুদ্ৰালৈ ৰূপান্তৰ কৰক।",
+    "amount_placeholder": "পৰিমাণ (₹ ত)",
+    "convert_button": "ৰূপান্তৰ কৰক",
+    "converting": "ৰূপান্তৰ কৰি থকা হৈছে…",
+    "rate_note": "হাৰ: 1 ₹ = {{rate}}",
+    "failed": "এতিয়া মুদ্ৰা ৰূপান্তৰ কৰিব পৰা নগ'ল।"
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD আইডি",
     "cancel": "বাতিল কৰক",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "নিশ্চিত কৰিবলৈ পুনৰ টেপ কৰক",
     "title": "🚨 জৰুৰীকালীন ম'ড"
   },
+  "etiquette": {
+    "card_title": "সাংস্কৃতিক শিষ্টাচাৰ গাইড",
+    "intro": "ভাৰতলৈ অহাৰ বাবে সাধাৰণ ৰীতি-নীতি আৰু শিষ্টাচাৰৰ পৰামৰ্শ।",
+    "topic_greetings": "শুভেচ্ছা",
+    "topic_temples": "মন্দিৰ",
+    "topic_dress": "পোছাক",
+    "topic_dining": "ভোজন",
+    "topic_tipping": "টিপ দিয়া",
+    "topic_photography": "ফটোগ্ৰাফী",
+    "listen": "শুনক",
+    "not_translated": "এই ভাষালৈ এতিয়াও অনুবাদ কৰা হোৱা নাই — ইংৰাজী দেখুওৱা হৈছে।",
+    "failed": "এতিয়া শিষ্টাচাৰ গাইড ল'ড কৰিব পৰা নগ'ল।"
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "চিকিৎসা",
     "category_shopping": "Shopping",
+    "category_taxi": "টেক্সি",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "এই ভাষালৈ এতিয়াও অনুবাদ কৰা হোৱা নাই — ইংৰাজী দেখুওৱা হৈছে।"
   },
   "help": {
     "ask_safety_helper": "💬 সুৰক্ষা সহায়কক সোধক"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "মাইক্ৰ'ফ'নত প্ৰৱেশ কৰিব পৰা নগ'ল — অনুগ্ৰহ কৰি মাইক্ৰ'ফ'নৰ অনুমতি পৰীক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক।",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

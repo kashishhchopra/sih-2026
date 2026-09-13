@@ -4,6 +4,7 @@ import { Card } from './ui.jsx'
 import useSpeechRecognition from '../hooks/useSpeechRecognition.js'
 import { speak, speechSynthesisSupported } from '../lib/voiceService.js'
 import { listLanguages, translateText as apiTranslateText } from '../lib/translationService.js'
+import { useLocalsLanguage } from '../lib/touristMode.js'
 
 // Two-way live voice translator: a conversation-mode translator for a
 // tourist and a foreign traveler talking face-to-face -- each side speaks in
@@ -37,16 +38,26 @@ function Speaker({ label, lang, onLangChange, languages, text, onHeard, disabled
         className={`w-full text-sm font-semibold py-2 rounded-lg text-white disabled:opacity-50 ${sr.listening ? 'bg-red-600' : 'bg-sky-600 hover:bg-sky-700'}`}>
         {!sr.supported ? t('voice_translator.unsupported') : sr.listening ? t('voice_translator.listening') : t('voice_translator.tap_to_speak')}
       </button>
+      {/* Without this, a mic permission refusal or hardware failure looked
+          identical to the button simply not working -- no visible feedback
+          at all. See hooks/useSpeechRecognition.js. */}
+      {sr.error && (
+        <div className="mt-2 text-xs text-red-600 dark:text-red-400">{t('voice_translator.mic_error')}</div>
+      )}
       {text && <div className="mt-2 text-sm bg-slate-50 dark:bg-slate-700/50 rounded-lg p-2">{text}</div>}
     </div>
   )
 }
 
 export default function TwoWayVoiceTranslator() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [languages, setLanguages] = useState({})
-  const [langA, setLangA] = useState('en')
-  const [langB, setLangB] = useState('hi')
+  // "Tourist Mode": "You" defaults to the tourist's own app language (it
+  // already cascades everywhere else); "Traveler" (the local person) is a
+  // separate, persisted choice shared with every other translator card --
+  // see lib/touristMode.js.
+  const [langA, setLangA] = useState(i18n.resolvedLanguage || i18n.language || 'en')
+  const [langB, setLangB] = useLocalsLanguage()
   const [textA, setTextA] = useState('')
   const [textB, setTextB] = useState('')
   const [error, setError] = useState('')

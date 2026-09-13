@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "Валюта и цена",
+    "intro": "Конвертируйте цену в индийских рупиях (₹) в свою валюту по актуальному курсу.",
+    "amount_placeholder": "Сумма в ₹",
+    "convert_button": "Конвертировать",
+    "converting": "Конвертация…",
+    "rate_note": "Курс: 1 ₹ = {{rate}}",
+    "failed": "Не удалось конвертировать валюту сейчас."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ID",
     "cancel": "Отмена",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "Нажмите ещё раз для подтверждения",
     "title": "🚨 Режим чрезвычайной ситуации"
   },
+  "etiquette": {
+    "card_title": "Руководство по культурному этикету",
+    "intro": "Общие обычаи и советы по этикету для посещения Индии.",
+    "topic_greetings": "Приветствия",
+    "topic_temples": "Храмы",
+    "topic_dress": "Дресс-код",
+    "topic_dining": "Еда",
+    "topic_tipping": "Чаевые",
+    "topic_photography": "Фотография",
+    "listen": "Слушать",
+    "not_translated": "Ещё не переведено на этот язык — показан английский текст.",
+    "failed": "Не удалось загрузить руководство по этикету сейчас."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "Медицина",
     "category_shopping": "Shopping",
+    "category_taxi": "Такси",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "Ещё не переведено на этот язык — показан английский текст."
   },
   "help": {
     "ask_safety_helper": "💬 Спросить помощника по безопасности"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "Не удалось получить доступ к микрофону — проверьте разрешение на использование микрофона и повторите попытку.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

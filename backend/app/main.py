@@ -13,10 +13,12 @@ from app.api import (
     cctv,
     copilot,
     crowd_forecast,
+    currency,
     devices,
     disaster,
     discovery,
     emergency,
+    etiquette,
     fare,
     festivals,
     guardian,
@@ -225,6 +227,8 @@ app.include_router(festivals.router, prefix=PREFIX, dependencies=_rl)
 app.include_router(permits.router, prefix=PREFIX, dependencies=_rl)
 app.include_router(safety_reports.router, prefix=PREFIX, dependencies=_rl)
 app.include_router(fare.router, prefix=PREFIX, dependencies=_rl)
+app.include_router(etiquette.router, prefix=PREFIX, dependencies=_rl)
+app.include_router(currency.router, prefix=PREFIX, dependencies=_rl)
 app.include_router(ws.router)  # websocket at /ws/alerts (auth via token query param)
 
 # /api/metrics — Prometheus scrape target. Excluded from request logging noise

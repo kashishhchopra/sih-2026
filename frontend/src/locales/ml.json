@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "കറൻസിയും വിലയും",
+    "intro": "തത്സമയ വിനിമയ നിരക്കുകൾ ഉപയോഗിച്ച് ഇന്ത്യൻ രൂപ (₹) വില നിങ്ങളുടെ സ്വന്തം കറൻസിയിലേക്ക് മാറ്റുക.",
+    "amount_placeholder": "തുക (₹ ൽ)",
+    "convert_button": "മാറ്റുക",
+    "converting": "മാറ്റുന്നു…",
+    "rate_note": "നിരക്ക്: 1 ₹ = {{rate}}",
+    "failed": "ഇപ്പോൾ കറൻസി മാറ്റാനായില്ല."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ഐഡി",
     "cancel": "റദ്ദാക്കുക",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "സ്ഥിരീകരിക്കാൻ വീണ്ടും ടാപ്പ് ചെയ്യുക",
     "title": "🚨 അടിയന്തര മോഡ്"
   },
+  "etiquette": {
+    "card_title": "സാംസ്കാരിക മര്യാദ ഗൈഡ്",
+    "intro": "ഇന്ത്യ സന്ദർശിക്കുന്നതിനുള്ള പൊതു ആചാരങ്ങളും മര്യാദ നുറുങ്ങുകളും.",
+    "topic_greetings": "അഭിവാദനങ്ങൾ",
+    "topic_temples": "ക്ഷേത്രങ്ങൾ",
+    "topic_dress": "വസ്ത്രധാരണ രീതി",
+    "topic_dining": "ഭക്ഷണം",
+    "topic_tipping": "ടിപ്പ്",
+    "topic_photography": "ഫോട്ടോഗ്രഫി",
+    "listen": "കേൾക്കുക",
+    "not_translated": "ഈ ഭാഷയിലേക്ക് ഇതുവരെ വിവർത്തനം ചെയ്തിട്ടില്ല — ഇംഗ്ലീഷ് കാണിക്കുന്നു.",
+    "failed": "ഇപ്പോൾ മര്യാദ ഗൈഡ് ലോഡ് ചെയ്യാനായില്ല."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "മെഡിക്കൽ",
     "category_shopping": "Shopping",
+    "category_taxi": "ടാക്സി",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "ഈ ഭാഷയിലേക്ക് ഇതുവരെ വിവർത്തനം ചെയ്തിട്ടില്ല — ഇംഗ്ലീഷ് കാണിക്കുന്നു."
   },
   "help": {
     "ask_safety_helper": "💬 സുരക്ഷാ സഹായകനോട് ചോദിക്കുക"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "മൈക്രോഫോൺ ആക്സസ് ചെയ്യാനായില്ല — ദയവായി മൈക്രോഫോൺ അനുമതി പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

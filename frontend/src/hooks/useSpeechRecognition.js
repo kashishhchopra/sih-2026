@@ -31,12 +31,27 @@ export default function useSpeechRecognition({ lang = 'en-IN' } = {}) {
         .trim()
       setTranscript(text)
     }
-    recognition.onerror = (event) => setError(event.error || 'speech-recognition-error')
+    // Without this, a failure (mic permission denied, no microphone, the
+    // browser refusing a second concurrent session) left the button stuck
+    // showing "Listening..." forever with no visible error and no way to
+    // retry -- indistinguishable from the button simply not working.
+    recognition.onerror = (event) => {
+      setError(event.error || 'speech-recognition-error')
+      setListening(false)
+    }
     recognition.onend = () => setListening(false)
 
     recognitionRef.current = recognition
-    setListening(true)
-    recognition.start()
+    try {
+      recognition.start()
+      setListening(true)
+    } catch (e) {
+      // Some browsers throw synchronously (e.g. InvalidStateError) instead
+      // of firing onerror -- must still be caught, or the button would look
+      // clickable but silently do nothing.
+      setError(e?.name || 'speech-recognition-error')
+      setListening(false)
+    }
   }, [SpeechRecognitionCtor, lang, listening, supported])
 
   const stop = useCallback(() => {

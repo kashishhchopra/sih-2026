@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "货币与价格",
+    "intro": "使用实时汇率将印度卢比（₹）价格换算成您的本国货币。",
+    "amount_placeholder": "金额（₹）",
+    "convert_button": "转换",
+    "converting": "转换中…",
+    "rate_note": "汇率：1 ₹ = {{rate}}",
+    "failed": "目前无法转换货币。"
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD 身份证",
     "cancel": "取消",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "再次点击以确认",
     "title": "🚨 紧急模式"
   },
+  "etiquette": {
+    "card_title": "文化礼仪指南",
+    "intro": "访问印度的一般习俗和礼仪提示。",
+    "topic_greetings": "问候",
+    "topic_temples": "寺庙",
+    "topic_dress": "着装要求",
+    "topic_dining": "用餐",
+    "topic_tipping": "小费",
+    "topic_photography": "摄影",
+    "listen": "收听",
+    "not_translated": "尚未翻译成此语言 — 显示英文。",
+    "failed": "目前无法加载礼仪指南。"
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "医疗",
     "category_shopping": "Shopping",
+    "category_taxi": "出租车",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "尚未翻译成此语言 — 显示英文。"
   },
   "help": {
     "ask_safety_helper": "💬 询问安全助手"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "无法访问麦克风——请检查麦克风权限并重试。",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

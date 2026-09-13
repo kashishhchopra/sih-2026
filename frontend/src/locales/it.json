@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "Valuta e prezzo",
+    "intro": "Converti un prezzo in rupie indiane (₹) nella tua valuta usando tassi di cambio in tempo reale.",
+    "amount_placeholder": "Importo in ₹",
+    "convert_button": "Converti",
+    "converting": "Conversione in corso…",
+    "rate_note": "Tasso: 1 ₹ = {{rate}}",
+    "failed": "Impossibile convertire la valuta in questo momento."
+  },
   "digital_id": {
     "brand": "🛡️ ID TOURSHIELD",
     "cancel": "Annulla",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "Tocca di nuovo per confermare",
     "title": "🚨 Modalità di emergenza"
   },
+  "etiquette": {
+    "card_title": "Guida al galateo culturale",
+    "intro": "Usanze generali e consigli di galateo per visitare l'India.",
+    "topic_greetings": "Saluti",
+    "topic_temples": "Templi",
+    "topic_dress": "Codice di abbigliamento",
+    "topic_dining": "Pasti",
+    "topic_tipping": "Mancia",
+    "topic_photography": "Fotografia",
+    "listen": "Ascolta",
+    "not_translated": "Non ancora tradotto in questa lingua: viene mostrato l'inglese.",
+    "failed": "Impossibile caricare la guida al galateo in questo momento."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "Medico",
     "category_shopping": "Shopping",
+    "category_taxi": "Taxi",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "Non ancora tradotto in questa lingua: viene mostrato l'inglese."
   },
   "help": {
     "ask_safety_helper": "💬 Chiedi all'assistente di sicurezza"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "Impossibile accedere al microfono: controlla l'autorizzazione del microfono e riprova.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

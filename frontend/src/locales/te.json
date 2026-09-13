@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "కరెన్సీ మరియు ధర",
+    "intro": "ప్రత్యక్ష మారకపు రేట్లను ఉపయోగించి భారతీయ రూపాయి (₹) ధరను మీ కరెన్సీలోకి మార్చండి.",
+    "amount_placeholder": "మొత్తం (₹ లో)",
+    "convert_button": "మార్చు",
+    "converting": "మారుస్తోంది…",
+    "rate_note": "రేటు: 1 ₹ = {{rate}}",
+    "failed": "ప్రస్తుతం కరెన్సీని మార్చలేకపోయాము."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ఐడి",
     "cancel": "రద్దు చేయండి",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "నిర్ధారించడానికి మళ్లీ నొక్కండి",
     "title": "🚨 అత్యవసర మోడ్"
   },
+  "etiquette": {
+    "card_title": "సాంస్కృతిక మర్యాద గైడ్",
+    "intro": "భారతదేశాన్ని సందర్శించడానికి సాధారణ ఆచారాలు మరియు మర్యాద చిట్కాలు.",
+    "topic_greetings": "శుభాకాంక్షలు",
+    "topic_temples": "దేవాలయాలు",
+    "topic_dress": "దుస్తుల నియమావళి",
+    "topic_dining": "భోజనం",
+    "topic_tipping": "టిప్",
+    "topic_photography": "ఫోటోగ్రఫీ",
+    "listen": "వినండి",
+    "not_translated": "ఈ భాషలోకి ఇంకా అనువదించలేదు — ఆంగ్లం చూపబడుతోంది.",
+    "failed": "ప్రస్తుతం మర్యాద గైడ్‌ను లోడ్ చేయలేకపోయాము."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "వైద్యం",
     "category_shopping": "Shopping",
+    "category_taxi": "టాక్సీ",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "ఈ భాషలోకి ఇంకా అనువదించలేదు — ఆంగ్లం చూపబడుతోంది."
   },
   "help": {
     "ask_safety_helper": "💬 భద్రతా సహాయకుడిని అడగండి"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "మైక్రోఫోన్‌ను యాక్సెస్ చేయలేకపోయాము — దయచేసి మైక్రోఫోన్ అనుమతిని తనిఖీ చేసి మళ్లీ ప్రయత్నించండి.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",

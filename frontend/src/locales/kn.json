@@ -53,6 +53,15 @@
     "intro": "Forecasted crowd levels by zone, factoring season, holidays, festivals and weather.",
     "reasons": "{{list}}"
   },
+  "currency": {
+    "card_title": "ಕರೆನ್ಸಿ ಮತ್ತು ಬೆಲೆ",
+    "intro": "ಲೈವ್ ವಿನಿಮಯ ದರಗಳನ್ನು ಬಳಸಿ ಭಾರತೀಯ ರೂಪಾಯಿ (₹) ಬೆಲೆಯನ್ನು ನಿಮ್ಮ ಕರೆನ್ಸಿಗೆ ಪರಿವರ್ತಿಸಿ.",
+    "amount_placeholder": "ಮೊತ್ತ (₹ ನಲ್ಲಿ)",
+    "convert_button": "ಪರಿವರ್ತಿಸಿ",
+    "converting": "ಪರಿವರ್ತಿಸಲಾಗುತ್ತಿದೆ…",
+    "rate_note": "ದರ: 1 ₹ = {{rate}}",
+    "failed": "ಈಗ ಕರೆನ್ಸಿಯನ್ನು ಪರಿವರ್ತಿಸಲಾಗಲಿಲ್ಲ."
+  },
   "digital_id": {
     "brand": "🛡️ TOURSHIELD ಐಡಿ",
     "cancel": "ರದ್ದುಗೊಳಿಸಿ",
@@ -125,6 +134,19 @@
     "tap_again_confirm": "ದೃಢೀಕರಿಸಲು ಮತ್ತೆ ಟ್ಯಾಪ್ ಮಾಡಿ",
     "title": "🚨 ತುರ್ತು ಮೋಡ್"
   },
+  "etiquette": {
+    "card_title": "ಸಾಂಸ್ಕೃತಿಕ ಶಿಷ್ಟಾಚಾರ ಮಾರ್ಗದರ್ಶಿ",
+    "intro": "ಭಾರತಕ್ಕೆ ಭೇಟಿ ನೀಡಲು ಸಾಮಾನ್ಯ ಪದ್ಧತಿಗಳು ಮತ್ತು ಶಿಷ್ಟಾಚಾರ ಸಲಹೆಗಳು.",
+    "topic_greetings": "ಶುಭಾಶಯಗಳು",
+    "topic_temples": "ದೇವಾಲಯಗಳು",
+    "topic_dress": "ಉಡುಪು ನಿಯಮ",
+    "topic_dining": "ಊಟ",
+    "topic_tipping": "ಟಿಪ್ಸ್",
+    "topic_photography": "ಛಾಯಾಗ್ರಹಣ",
+    "listen": "ಕೇಳಿ",
+    "not_translated": "ಈ ಭಾಷೆಗೆ ಇನ್ನೂ ಅನುವಾದಿಸಲಾಗಿಲ್ಲ — ಇಂಗ್ಲಿಷ್ ತೋರಿಸಲಾಗುತ್ತಿದೆ.",
+    "failed": "ಈಗ ಶಿಷ್ಟಾಚಾರ ಮಾರ್ಗದರ್ಶಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ."
+  },
   "explore_hero": {
     "subtitle": "Plan smarter, discover more, and stay ready",
     "title": "Explore"
@@ -174,9 +196,12 @@
     "category_directions": "Directions",
     "category_food": "Food",
     "category_greetings": "Greetings",
+    "category_medical": "ವೈದ್ಯಕೀಯ",
     "category_shopping": "Shopping",
+    "category_taxi": "ಟ್ಯಾಕ್ಸಿ",
     "failed": "Couldn't load the phrasebook right now.",
-    "intro": "Everyday phrases in your language — tap to translate and hear it spoken."
+    "intro": "Everyday phrases in your language — tap to translate and hear it spoken.",
+    "not_translated": "ಈ ಭಾಷೆಗೆ ಇನ್ನೂ ಅನುವಾದಿಸಲಾಗಿಲ್ಲ — ಇಂಗ್ಲಿಷ್ ತೋರಿಸಲಾಗುತ್ತಿದೆ."
   },
   "help": {
     "ask_safety_helper": "💬 ಸುರಕ್ಷತಾ ಸಹಾಯಕರನ್ನು ಕೇಳಿ"
@@ -487,6 +512,7 @@
     "failed": "Translation is unavailable right now.",
     "intro": "Have a live conversation across languages — each side speaks, the other hears it translated.",
     "listening": "Listening…",
+    "mic_error": "ಮೈಕ್ರೊಫೋನ್ ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ — ದಯವಿಟ್ಟು ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
     "tap_to_speak": "Tap to speak",
     "traveler": "Traveler",
     "unsupported": "Voice input not supported on this device",
