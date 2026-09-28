@@ -1,0 +1,212 @@
+[
+  {
+    "label": "SR-203 : Mammoth Mountain",
+    "lat": 37.64111,
+    "lng": -118.91848,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr203mammothmountain/sr203mammothmountain.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-203%20%3A%20Mammoth%20Mountain",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Conway Summit",
+    "lat": 38.08782,
+    "lng": -119.181251,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395conwaysummit/us395conwaysummit.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Conway%20Summit",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Coso Rest Area",
+    "lat": 36.04605,
+    "lng": -117.946836,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395cosorestarea/us395cosorestarea.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Coso%20Rest%20Area",
+    "attribution": "Caltrans District 9 (Inyo County)"
+  },
+  {
+    "label": "US-6 : State Line",
+    "lat": 37.84225,
+    "lng": -118.47842,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us6stateline/us6stateline.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-6%20%3A%20State%20Line",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Lone Pine 1",
+    "lat": 36.61399,
+    "lng": -118.06649,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395lonepine1/us395lonepine1.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Lone%20Pine%201",
+    "attribution": "Caltrans District 9 (Inyo County)"
+  },
+  {
+    "label": "US-395 : North of SR-14 1",
+    "lat": 35.72336,
+    "lng": -117.86918,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395northofsr141/us395northofsr141.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20North%20of%20SR-14%201",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "US-395 : North of SR-14 2",
+    "lat": 35.72336,
+    "lng": -117.86918,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395northofsr142/us395northofsr142.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20North%20of%20SR-14%202",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "US-395 : North of SR-14 4",
+    "lat": 35.72336,
+    "lng": -117.86918,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395northofsr144/us395northofsr144.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20North%20of%20SR-14%204",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "US-395 : North of SR-14 3",
+    "lat": 35.72336,
+    "lng": -117.86918,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395northofsr143/us395northofsr143.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20North%20of%20SR-14%203",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "SR-58 : Cache Creek",
+    "lat": 35.11736,
+    "lng": -118.21202,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr58cachecreek/sr58cachecreek.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-58%20%3A%20Cache%20Creek",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "SR-14 : Silver Queen Road",
+    "lat": 34.98746,
+    "lng": -118.15893,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr14silverqueenroad/sr14silverqueenroad.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-14%20%3A%20Silver%20Queen%20Road",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "SR-14 : SR-178 Inyokern",
+    "lat": 35.6419,
+    "lng": -117.88262,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr14sr178inyokern/sr14sr178inyokern.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-14%20%3A%20SR-178%20Inyokern",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "SR-58 : Broome Road",
+    "lat": 35.2006,
+    "lng": -118.52189,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr58broomeroad/sr58broomeroad.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-58%20%3A%20Broome%20Road",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "SR-58 : Tehachapi Summit",
+    "lat": 35.1254,
+    "lng": -118.41069,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/sr58tehachapisummit/sr58tehachapisummit.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=SR-58%20%3A%20Tehachapi%20Summit",
+    "attribution": "Caltrans District 9 (Kern County)"
+  },
+  {
+    "label": "US-395 : Crestview",
+    "lat": 37.75146,
+    "lng": -118.98329,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395crestview/us395crestview.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Crestview",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Tom's Place",
+    "lat": 37.56213,
+    "lng": -118.6774,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395tomsplace/us395tomsplace.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Tom%27s%20Place",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : McGee Creek Road",
+    "lat": 37.58796,
+    "lng": -118.78405,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395mcgeecreekroad/us395mcgeecreekroad.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20McGee%20Creek%20Road",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Obsidian Dome",
+    "lat": 37.77493,
+    "lng": -119.01401,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395obsidiandome/us395obsidiandome.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Obsidian%20Dome",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : SR-108 Sonora Junction",
+    "lat": 38.35058,
+    "lng": -119.45038,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395sr108sonorajunction/us395sr108sonorajunction.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20SR-108%20Sonora%20Junction",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Crowley Lake",
+    "lat": 37.574298,
+    "lng": -118.731969,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395crowleylake/us395crowleylake.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Crowley%20Lake",
+    "attribution": "Caltrans District 9 (Mono County)"
+  },
+  {
+    "label": "US-395 : Bridgeport",
+    "lat": 38.234129,
+    "lng": -119.224608,
+    "stream_url": "https://cwwp2.dot.ca.gov/data/d9/cctv/image/us395bridgeport/us395bridgeport.jpg",
+    "stream_type": "jpeg",
+    "feed_source": "Caltrans",
+    "source_url": "https://cwwp2.dot.ca.gov/vm/iframe.htm?loc=US-395%20%3A%20Bridgeport",
+    "attribution": "Caltrans District 9 (Mono County)"
+  }
+]

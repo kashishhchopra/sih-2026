@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "title": "Crime against Foreigners in India, 2014-2021",
+    "source": "National Crime Records Bureau (NCRB), Ministry of Home Affairs, GoI. Chapter 13A of the annual 'Crime in India' report. FTA (foreign tourist arrivals) from the Ministry of Tourism, GoI.",
+    "compiled_by": "Vishal Tikhute, distributed via Mendeley Data",
+    "url": "https://data.mendeley.com/datasets/tyzj3j83gj/1",
+    "doi": "10.17632/tyzj3j83gj.1",
+    "downloaded": "2026-09-01",
+    "granularity": "national (India-wide), annual",
+    "note": "No state/UT-wise breakdown of this series is available without a data.gov.in API key (not obtainable in this environment) -- see app/services/crime_index.py for how this national series is used as a calibration anchor rather than a per-state lookup. 2020-2021 crime RATE spikes are a COVID-19 artifact (foreign tourist arrivals collapsed ~87%, so the same or lower case count divides into a far smaller denominator) and are excluded from the pre-COVID baseline used for calibration -- flagged explicitly rather than read as tourists becoming more likely to be victimised."
+  },
+  "series": [
+    {"year": 2014, "cases_registered": 486, "fta_million": 7.68, "crime_rate_per_lakh_fta": 6.3281},
+    {"year": 2015, "cases_registered": 362, "fta_million": 8.03, "crime_rate_per_lakh_fta": 4.5081},
+    {"year": 2016, "cases_registered": 382, "fta_million": 8.80, "crime_rate_per_lakh_fta": 4.3409},
+    {"year": 2017, "cases_registered": 492, "fta_million": 10.04, "crime_rate_per_lakh_fta": 4.9004},
+    {"year": 2018, "cases_registered": 517, "fta_million": 10.56, "crime_rate_per_lakh_fta": 4.8958},
+    {"year": 2019, "cases_registered": 404, "fta_million": 10.93, "crime_rate_per_lakh_fta": 3.6962},
+    {"year": 2020, "cases_registered": 191, "fta_million": 2.74, "crime_rate_per_lakh_fta": 6.9708, "covid_anomalous": true},
+    {"year": 2021, "cases_registered": 150, "fta_million": 1.52, "crime_rate_per_lakh_fta": 9.8684, "covid_anomalous": true}
+  ]
+}

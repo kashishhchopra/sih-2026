@@ -1,0 +1,61 @@
+[project]
+name = "tourist-safety-backend"
+version = "1.1.0"
+requires-python = ">=3.11"
+
+# ----------------------------------------------------------------- pytest
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q --strict-markers"
+filterwarnings = [
+    "ignore::DeprecationWarning:pydantic._internal._config",
+]
+
+# ----------------------------------------------------------------- coverage
+[tool.coverage.run]
+source = ["app"]
+omit = [
+    # Offline training entry points and demo scripts: exercised by running them,
+    # not by the unit suite. Excluded so the floor reflects runtime code.
+    "app/ml/*",
+    "app/scripts/*",
+]
+
+[tool.coverage.report]
+# Runtime code only. Raise this floor as coverage improves; never lower it to
+# make a failing build pass.
+fail_under = 90
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+
+# ----------------------------------------------------------------- ruff
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["venv", "alembic/versions"]
+
+[tool.ruff.lint]
+select = [
+    "E", "W",   # pycodestyle
+    "F",        # pyflakes
+    "I",        # import sorting
+    "B",        # bugbear
+    "UP",       # pyupgrade
+    "C4",       # comprehensions
+    "SIM",      # simplify
+]
+ignore = [
+    "B008",  # FastAPI's Depends() in defaults is the framework's idiom
+    "E501",  # long lines are caught by the formatter, not worth failing CI
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests import fixtures for their side effects and re-import inside functions
+# to keep each case self-contained.
+"tests/*" = ["F401", "F811"]

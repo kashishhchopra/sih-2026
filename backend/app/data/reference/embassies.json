@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "title": "Foreign diplomatic missions in India (subset)",
+    "source": "Manually curated from the Ministry of External Affairs foreign-missions directory (mea.gov.in) and each mission's own published contact page.",
+    "scope": "The 10 countries whose languages the Ministry of Tourism's 1363 helpline supports, plus other major foreign-tourist-arrival source countries. Not exhaustive -- see _default in country_guidance.json for any nationality not listed.",
+    "verified_on": "2026-09-01",
+    "note": "No official machine-readable API for this directory exists. This list is a point-in-time snapshot and should be periodically re-verified against mea.gov.in rather than treated as always-current."
+  },
+  "missions": [
+    {"country_code": "US", "country_name": "United States", "mission_type": "Embassy", "city": "New Delhi", "address": "Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2419-8000", "emergency_phone": "+91-11-2419-8000", "email": "acsnewdelhi@state.gov", "lat": 28.5978, "lng": 77.1888},
+    {"country_code": "US", "country_name": "United States", "mission_type": "Consulate General", "city": "Mumbai", "address": "C-49, G-Block, Bandra Kurla Complex, Mumbai 400051", "phone": "+91-22-2672-4000", "emergency_phone": "+91-22-2672-4000", "lat": 19.0654, "lng": 72.8687},
+    {"country_code": "GB", "country_name": "United Kingdom", "mission_type": "High Commission", "city": "New Delhi", "address": "Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2419-2100", "emergency_phone": "+91-11-2419-2100", "lat": 28.5974, "lng": 77.1892},
+    {"country_code": "GB", "country_name": "United Kingdom", "mission_type": "Deputy High Commission", "city": "Mumbai", "address": "Naman Chambers, Bandra Kurla Complex, Mumbai 400051", "phone": "+91-22-6650-2222", "lat": 19.0662, "lng": 72.8681},
+    {"country_code": "JP", "country_name": "Japan", "mission_type": "Embassy", "city": "New Delhi", "address": "50-G, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4610-4610", "emergency_phone": "+91-11-4610-4610", "lat": 28.5959, "lng": 77.1897},
+    {"country_code": "JP", "country_name": "Japan", "mission_type": "Consulate General", "city": "Mumbai", "address": "1, MG Road, Mumbai 400001", "phone": "+91-22-2351-7101", "lat": 18.9296, "lng": 72.8317},
+    {"country_code": "KR", "country_name": "South Korea", "mission_type": "Embassy", "city": "New Delhi", "address": "9, Chandragupta Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4200-7000", "emergency_phone": "+91-11-4200-7000", "lat": 28.5928, "lng": 77.1892},
+    {"country_code": "CN", "country_name": "China", "mission_type": "Embassy", "city": "New Delhi", "address": "50-D, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2611-2345", "emergency_phone": "+91-11-2611-2345", "lat": 28.5951, "lng": 77.1901},
+    {"country_code": "FR", "country_name": "France", "mission_type": "Embassy", "city": "New Delhi", "address": "2/50-E, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4319-6100", "emergency_phone": "+91-11-4319-6100", "lat": 28.5967, "lng": 77.1904},
+    {"country_code": "DE", "country_name": "Germany", "mission_type": "Embassy", "city": "New Delhi", "address": "6/50-G, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4419-9199", "emergency_phone": "+91-11-4419-9199", "lat": 28.5962, "lng": 77.1875},
+    {"country_code": "ES", "country_name": "Spain", "mission_type": "Embassy", "city": "New Delhi", "address": "12, Prithviraj Road, New Delhi 110011", "phone": "+91-11-4129-3000", "lat": 28.5988, "lng": 77.2196},
+    {"country_code": "RU", "country_name": "Russia", "mission_type": "Embassy", "city": "New Delhi", "address": "Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2611-0640", "emergency_phone": "+91-11-2687-3800", "lat": 28.5942, "lng": 77.1885},
+    {"country_code": "SA", "country_name": "Saudi Arabia", "mission_type": "Embassy", "city": "New Delhi", "address": "N-1, Niti Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2688-9432", "lat": 28.5896, "lng": 77.1936},
+    {"country_code": "AE", "country_name": "United Arab Emirates", "mission_type": "Embassy", "city": "New Delhi", "address": "EP-14, Chandragupta Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2688-8555", "lat": 28.5921, "lng": 77.1894},
+    {"country_code": "PT", "country_name": "Portugal", "mission_type": "Embassy", "city": "New Delhi", "address": "P-14/15, Vasant Marg, Vasant Vihar, New Delhi 110057", "phone": "+91-11-2614-6733", "lat": 28.5628, "lng": 77.1591},
+    {"country_code": "IT", "country_name": "Italy", "mission_type": "Embassy", "city": "New Delhi", "address": "50-E, Chandragupta Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2611-4355", "emergency_phone": "+91-11-2611-4355", "lat": 28.5942, "lng": 77.1908},
+    {"country_code": "AU", "country_name": "Australia", "mission_type": "High Commission", "city": "New Delhi", "address": "1/50-G, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4139-9900", "emergency_phone": "+91-11-4139-9900", "lat": 28.5966, "lng": 77.1866},
+    {"country_code": "CA", "country_name": "Canada", "mission_type": "High Commission", "city": "New Delhi", "address": "7/8 Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4178-2000", "emergency_phone": "+91-11-4178-2000", "lat": 28.5977, "lng": 77.1863},
+    {"country_code": "NL", "country_name": "Netherlands", "mission_type": "Embassy", "city": "New Delhi", "address": "6/50-F, Shantipath, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2419-7600", "lat": 28.5960, "lng": 77.1879},
+    {"country_code": "SG", "country_name": "Singapore", "mission_type": "High Commission", "city": "New Delhi", "address": "E-6, Chandragupta Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4600-2200", "lat": 28.5922, "lng": 77.1901},
+    {"country_code": "TH", "country_name": "Thailand", "mission_type": "Embassy", "city": "New Delhi", "address": "56-N, Nyaya Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-4977-4100", "lat": 28.5892, "lng": 77.1918},
+    {"country_code": "IL", "country_name": "Israel", "mission_type": "Embassy", "city": "New Delhi", "address": "3, Aurangzeb Road (Kautilya Marg), New Delhi 110011", "phone": "+91-11-3041-7500", "emergency_phone": "+91-11-3041-7500", "lat": 28.5988, "lng": 77.2168},
+    {"country_code": "BD", "country_name": "Bangladesh", "mission_type": "High Commission", "city": "New Delhi", "address": "EP-39, Dr. S. Radhakrishnan Marg, Chanakyapuri, New Delhi 110021", "phone": "+91-11-2412-1584", "lat": 28.5911, "lng": 77.1958},
+    {"country_code": "NP", "country_name": "Nepal", "mission_type": "Embassy", "city": "New Delhi", "address": "Barakhamba Road, New Delhi 110001", "phone": "+91-11-2332-9969", "lat": 28.6297, "lng": 77.2251}
+  ]
+}

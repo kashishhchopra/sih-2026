@@ -1,0 +1,9 @@
+# Development & CI tooling. Install with:  pip install -r requirements-dev.txt
+-r requirements.txt
+
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.16.5
+# pypdf is now a runtime dependency (itinerary document upload) via
+# requirements.txt above -- this file used to pin it test-only for
+# verifying rendered EFIR PDF content.

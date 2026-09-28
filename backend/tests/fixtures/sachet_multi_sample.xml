@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alerts xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <alert>
+    <identifier>IN-NDMA-2026-000124</identifier>
+    <info>
+      <event>Landslide Advisory</event>
+      <severity>Moderate</severity>
+      <description>Landslide risk elevated in hilly terrain after sustained rainfall.</description>
+      <expires>2026-09-02T00:00:00+05:30</expires>
+      <area>
+        <areaDesc>Hillside district</areaDesc>
+        <polygon>26.11,91.70 26.11,91.73 26.14,91.73 26.14,91.70 26.11,91.70</polygon>
+      </area>
+    </info>
+  </alert>
+  <alert>
+    <identifier>IN-NDMA-2026-000125</identifier>
+    <info>
+      <event>Severe Thunderstorm Warning</event>
+      <severity>Extreme</severity>
+      <description>Severe thunderstorms with damaging winds expected this evening.</description>
+      <area>
+        <areaDesc>Regional</areaDesc>
+      </area>
+    </info>
+  </alert>
+</alerts>
